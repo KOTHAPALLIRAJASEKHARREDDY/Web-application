@@ -317,3 +317,29 @@ footer {
   padding: 5px 10px;
   font-size: 14px;
 }
+
+.Highlight1Icon, .Highlight2Icon, .Highlight3Icon {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 85px;
+    margin: auto;
+    text-align: center;
+    /*font-family: sans-serif;*/
+    font-family: 'Montserrat', sans-serif!important;
+    color: white;
+    padding: 5px;
+    height: 60px;
+}
+
+.Highlight1Icon {
+    background-image: url(../images/FullService&DeliveryIcon.png);
+}
+
+.Highlight2Icon {
+    background-image: url(../images/LowMonthlyRates.png);
+}
+
+.Highlight3Icon {
+    background-image: url(../images/FreeBestInClassService.png);
+}
+
