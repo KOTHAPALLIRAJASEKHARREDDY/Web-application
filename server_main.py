@@ -24,6 +24,7 @@ def index():
     return render_template('homepage.html', product_data=items_Data)
 
 
+
 @app.route('/login', methods=['GET', 'POST'])
 @app.route('/login.html', methods=['GET', 'POST'])
 def login():
