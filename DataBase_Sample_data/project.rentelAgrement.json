@@ -1,0 +1,2347 @@
+[{
+  "_id": {
+    "$oid": "6733ce89adf627b2e93d467c"
+  },
+  "agreement_id": "Agr_2",
+  "appliance_id": "App_2",
+  "customer_id": "C_2",
+  "rental_start_date": {
+    "$date": "2024-05-10T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-11-10T00:00:00.000Z"
+  },
+  "rental_rate": 75,
+  "total_cost": 450,
+  "deposit_paid": true,
+  "insurance_status": "Active",
+  "return_status": "Pending",
+  "damage_reports": "Minor dent",
+  "delivery_type": "Pickup"
+},
+{
+  "_id": {
+    "$oid": "6733ced3adf627b2e93d467e"
+  },
+  "agreement_id": "Agr_3",
+  "appliance_id": "App_3",
+  "customer_id": "C_3",
+  "rental_start_date": {
+    "$date": "2024-07-15T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2025-01-15T00:00:00.000Z"
+  },
+  "rental_rate": 85,
+  "total_cost": 510,
+  "deposit_paid": false,
+  "insurance_status": "Inactive",
+  "return_status": "Returned",
+  "damage_reports": "No damages",
+  "delivery_type": "Delivery"
+},
+{
+  "_id": {
+    "$oid": "6733ce1fadf627b2e93d467a"
+  },
+  "agreement_id": "Agr_1",
+  "appliance_id": "App_1",
+  "customer_id": "C_1",
+  "rental_start_date": {
+    "$date": "2024-02-15T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-08-15T00:00:00.000Z"
+  },
+  "rental_rate": 65,
+  "total_cost": 390,
+  "deposit_paid": false,
+  "insurance_status": "Inactive",
+  "return_status": "Returned",
+  "damage_reports": "None",
+  "delivery_type": "Delivery"
+},
+{
+  "_id": {
+    "$oid": "6733d008adf627b2e93d4680"
+  },
+  "agreement_id": "Agr_4",
+  "appliance_id": "App_4",
+  "customer_id": "C_4",
+  "rental_start_date": {
+    "$date": "2024-09-01T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2025-03-01T00:00:00.000Z"
+  },
+  "rental_rate": 95,
+  "total_cost": 570,
+  "deposit_paid": true,
+  "insurance_status": "Active",
+  "return_status": "Pending",
+  "damage_reports": "Scratches on the surface",
+  "delivery_type": "Pickup"
+},
+{
+  "_id": {
+    "$oid": "6740000259399491b5bc6807"
+  },
+  "agreement_id": "Agr_1",
+  "appliance_id": "App_1",
+  "customer_id": "673fe2fffa1408c7df1187c8",
+  "rental_start_date": {
+    "$date": "2024-02-15T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-08-15T00:00:00.000Z"
+  },
+  "rental_rate": 65,
+  "total_cost": 390,
+  "deposit_paid": false,
+  "insurance_status": "Inactive",
+  "return_status": "Returned",
+  "damage_reports": "None",
+  "delivery_type": "Delivery"
+},
+{
+  "_id": {
+    "$oid": "6740000859399491b5bc6808"
+  },
+  "agreement_id": "Agr_2",
+  "appliance_id": "App_2",
+  "customer_id": "673fe2fffa1408c7df1187c8",
+  "rental_start_date": {
+    "$date": "2024-05-10T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-10T00:00:00.000Z"
+  },
+  "rental_rate": 75,
+  "total_cost": 450,
+  "deposit_paid": true,
+  "insurance_status": "Active",
+  "return_status": "Pending",
+  "damage_reports": "Minor dent",
+  "delivery_type": "Pickup"
+},
+{
+  "_id": {
+    "$oid": "6740001059399491b5bc6809"
+  },
+  "agreement_id": "Agr_3",
+  "appliance_id": "App_3",
+  "customer_id": "673fe2fffa1408c7df1187c8",
+  "rental_start_date": {
+    "$date": "2024-07-15T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2025-01-15T00:00:00.000Z"
+  },
+  "rental_rate": 85,
+  "total_cost": 510,
+  "deposit_paid": false,
+  "insurance_status": "Inactive",
+  "return_status": "Returned",
+  "damage_reports": "No damages",
+  "delivery_type": "Delivery"
+},
+{
+  "_id": {
+    "$oid": "6746d72329ee2983070598ee"
+  },
+  "appliance_id": {
+    "$oid": "6733d544adf627b2e93d468a"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-27T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-04T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 120,
+  "deposit_amount": 251,
+  "total_amount": 371,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "6746db42883b65e750629abf"
+  },
+  "appliance_id": {
+    "$oid": "6733d544adf627b2e93d468a"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-27T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-04T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 120,
+  "deposit_amount": 251,
+  "total_amount": 371,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "6746de0161845ac68d466832"
+  },
+  "appliance_id": {
+    "$oid": "6733d544adf627b2e93d468a"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-27T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-04T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 120,
+  "deposit_amount": 251,
+  "total_amount": 371,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "6746de0961845ac68d466833"
+  },
+  "appliance_id": {
+    "$oid": "6733d544adf627b2e93d468a"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-27T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-04T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 120,
+  "deposit_amount": 251,
+  "total_amount": 371,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "6746de2a2d70e71b7bc0ba5d"
+  },
+  "appliance_id": {
+    "$oid": "6733d4a7adf627b2e93d4686"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-27T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-04T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 60,
+  "deposit_amount": 120,
+  "total_amount": 180,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "6746debbfea1eb005d737154"
+  },
+  "appliance_id": {
+    "$oid": "6733d509adf627b2e93d4688"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-27T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-04T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 45,
+  "deposit_amount": 90,
+  "total_amount": 135,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "674752141cf4f83c8fb41595"
+  },
+  "appliance_id": {
+    "$oid": "6733d544adf627b2e93d468a"
+  },
+  "customer_id": {
+    "$oid": "674751541cf4f83c8fb41593"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-27T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-04T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 120,
+  "deposit_amount": 251,
+  "total_amount": 371,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "67475eeb255e7ae72f72a6c2"
+  },
+  "appliance_id": {
+    "$oid": "6733d509adf627b2e93d4688"
+  },
+  "customer_id": {
+    "$oid": "674751541cf4f83c8fb41593"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-27T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-04T00:00:00.000Z"
+  },
+  "quantity": 2,
+  "rental_rate": 90,
+  "deposit_amount": 180,
+  "total_amount": 270,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "67475f24255e7ae72f72a6c3"
+  },
+  "appliance_id": {
+    "$oid": "6743c8fe07e7eb9b07cd2999"
+  },
+  "customer_id": {
+    "$oid": "674751541cf4f83c8fb41593"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-28T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-05T00:00:00.000Z"
+  },
+  "quantity": 3,
+  "rental_rate": 165,
+  "deposit_amount": 210,
+  "total_amount": 375,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "674767123d649b44a04c57ca"
+  },
+  "appliance_id": {
+    "$oid": "673fe6557c7509e16282a00b"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-28T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-05T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 135,
+  "deposit_amount": 250,
+  "total_amount": 385,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "674779f15d447b1a9dcb470c"
+  },
+  "appliance_id": {
+    "$oid": "6733d509adf627b2e93d4688"
+  },
+  "customer_id": {
+    "$oid": "674751541cf4f83c8fb41593"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-30T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-07T00:00:00.000Z"
+  },
+  "quantity": 4,
+  "rental_rate": 180,
+  "deposit_amount": 360,
+  "total_amount": 540,
+  "insurance_status": "In Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "delivery"
+},
+{
+  "_id": {
+    "$oid": "674779f15d447b1a9dcb470d"
+  },
+  "appliance_id": {
+    "$oid": "6733d440adf627b2e93d4684"
+  },
+  "customer_id": {
+    "$oid": "674751541cf4f83c8fb41593"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-30T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-07T00:00:00.000Z"
+  },
+  "quantity": 2,
+  "rental_rate": 200,
+  "deposit_amount": 300,
+  "total_amount": 500,
+  "insurance_status": "In Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "67477af05d447b1a9dcb4710"
+  },
+  "appliance_id": {
+    "$oid": "6743c8fe07e7eb9b07cd2999"
+  },
+  "customer_id": {
+    "$oid": "67477aac5d447b1a9dcb470e"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-29T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-06T00:00:00.000Z"
+  },
+  "quantity": 5,
+  "rental_rate": 275,
+  "deposit_amount": 350,
+  "total_amount": 625,
+  "insurance_status": "In Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "67477af05d447b1a9dcb4711"
+  },
+  "appliance_id": {
+    "$oid": "673feb047c7509e16282a019"
+  },
+  "customer_id": {
+    "$oid": "67477aac5d447b1a9dcb470e"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-30T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-07T00:00:00.000Z"
+  },
+  "quantity": 6,
+  "rental_rate": 600,
+  "deposit_amount": 1080,
+  "total_amount": 1680,
+  "insurance_status": "In Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "delivery"
+},
+{
+  "_id": {
+    "$oid": "674798d39e354b2886077069"
+  },
+  "appliance_id": {
+    "$oid": "6733d509adf627b2e93d4688"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-27T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-04T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 45,
+  "deposit_amount": 90,
+  "total_amount": 135,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "674798f7f621cbd380356db9"
+  },
+  "appliance_id": {
+    "$oid": "6733d509adf627b2e93d4688"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-27T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-04T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 45,
+  "deposit_amount": 90,
+  "total_amount": 135,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "674799691176f4d0dbc7ebd4"
+  },
+  "appliance_id": {
+    "$oid": "6733d509adf627b2e93d4688"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-27T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-04T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 45,
+  "deposit_amount": 90,
+  "total_amount": 135,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "674799e7a8ae13ad6fce469a"
+  },
+  "appliance_id": {
+    "$oid": "6733d509adf627b2e93d4688"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-27T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-04T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 45,
+  "deposit_amount": 90,
+  "total_amount": 135,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "674799ffb19178d798c84935"
+  },
+  "appliance_id": {
+    "$oid": "6733d509adf627b2e93d4688"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-27T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-04T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 45,
+  "deposit_amount": 90,
+  "total_amount": 135,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "67479a2fb19178d798c84936"
+  },
+  "appliance_id": {
+    "$oid": "6733d509adf627b2e93d4688"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-27T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-04T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 45,
+  "deposit_amount": 90,
+  "total_amount": 135,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "67479a9ab19178d798c84937"
+  },
+  "appliance_id": {
+    "$oid": "6733d509adf627b2e93d4688"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-27T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-04T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 45,
+  "deposit_amount": 90,
+  "total_amount": 135,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "67479a9cb19178d798c84938"
+  },
+  "appliance_id": {
+    "$oid": "6733d509adf627b2e93d4688"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-27T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-04T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 45,
+  "deposit_amount": 90,
+  "total_amount": 135,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "67479ad4b19178d798c84939"
+  },
+  "appliance_id": {
+    "$oid": "6733d509adf627b2e93d4688"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-27T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-04T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 45,
+  "deposit_amount": 90,
+  "total_amount": 135,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "67479ca7b19178d798c8493a"
+  },
+  "appliance_id": {
+    "$oid": "6733d509adf627b2e93d4688"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-27T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-04T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 45,
+  "deposit_amount": 90,
+  "total_amount": 135,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "67479e29706115e3322030f7"
+  },
+  "appliance_id": {
+    "$oid": "6733d509adf627b2e93d4688"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-27T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-04T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 45,
+  "deposit_amount": 90,
+  "total_amount": 135,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "67479e6a706115e3322030f8"
+  },
+  "appliance_id": {
+    "$oid": "6733d509adf627b2e93d4688"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-27T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-04T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 45,
+  "deposit_amount": 90,
+  "total_amount": 135,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "67479e79706115e3322030f9"
+  },
+  "appliance_id": {
+    "$oid": "6733d509adf627b2e93d4688"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-27T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-04T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 45,
+  "deposit_amount": 90,
+  "total_amount": 135,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "67479f4c2a42aca93df58380"
+  },
+  "appliance_id": {
+    "$oid": "6733d509adf627b2e93d4688"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-27T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-04T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 45,
+  "deposit_amount": 90,
+  "total_amount": 135,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "67479f982a42aca93df58381"
+  },
+  "appliance_id": {
+    "$oid": "6733d440adf627b2e93d4684"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-28T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-05T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 100,
+  "deposit_amount": 150,
+  "total_amount": 250,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "67479fac2a42aca93df58382"
+  },
+  "appliance_id": {
+    "$oid": "673fe3497c7509e16282a005"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-30T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-07T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 75,
+  "deposit_amount": 150,
+  "total_amount": 225,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "67479ffd2a42aca93df58383"
+  },
+  "appliance_id": {
+    "$oid": "673fe3497c7509e16282a005"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-30T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-07T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 75,
+  "deposit_amount": 150,
+  "total_amount": 225,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "6747a44f1a4af7f55461dfa1"
+  },
+  "appliance_id": {
+    "$oid": "673fe3497c7509e16282a005"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-30T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-07T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 75,
+  "deposit_amount": 150,
+  "total_amount": 225,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "6747a4701a4af7f55461dfa2"
+  },
+  "appliance_id": {
+    "$oid": "673fe3497c7509e16282a005"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-30T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-07T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 75,
+  "deposit_amount": 150,
+  "total_amount": 225,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "6747a4731a4af7f55461dfa3"
+  },
+  "appliance_id": {
+    "$oid": "673fe3497c7509e16282a005"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-30T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-07T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 75,
+  "deposit_amount": 150,
+  "total_amount": 225,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "6747a4af1a4af7f55461dfa4"
+  },
+  "appliance_id": {
+    "$oid": "673fe3497c7509e16282a005"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-30T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-07T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 75,
+  "deposit_amount": 150,
+  "total_amount": 225,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "6747a4dd1a4af7f55461dfa5"
+  },
+  "appliance_id": {
+    "$oid": "673fe3497c7509e16282a005"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-30T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-07T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 75,
+  "deposit_amount": 150,
+  "total_amount": 225,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "6747a5121a4af7f55461dfa6"
+  },
+  "appliance_id": {
+    "$oid": "673fe3497c7509e16282a005"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-30T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-07T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 75,
+  "deposit_amount": 150,
+  "total_amount": 225,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "6747a5371a4af7f55461dfa7"
+  },
+  "appliance_id": {
+    "$oid": "673fe3497c7509e16282a005"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-30T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-07T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 75,
+  "deposit_amount": 150,
+  "total_amount": 225,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "6747a5751a4af7f55461dfa8"
+  },
+  "appliance_id": {
+    "$oid": "673fe3497c7509e16282a005"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-30T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-07T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 75,
+  "deposit_amount": 150,
+  "total_amount": 225,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "6747a57f1a4af7f55461dfa9"
+  },
+  "appliance_id": {
+    "$oid": "673fe3497c7509e16282a005"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-30T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-07T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 75,
+  "deposit_amount": 150,
+  "total_amount": 225,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "6747ad1af20e592f051a5ef3"
+  },
+  "appliance_id": {
+    "$oid": "6733d544adf627b2e93d468a"
+  },
+  "customer_id": {
+    "$oid": "674751541cf4f83c8fb41593"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-28T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-05T00:00:00.000Z"
+  },
+  "quantity": 2,
+  "rental_rate": 240,
+  "deposit_amount": 502,
+  "total_amount": 742,
+  "insurance_status": "In Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "delivery"
+},
+{
+  "_id": {
+    "$oid": "6747ad1af20e592f051a5ef4"
+  },
+  "appliance_id": {
+    "$oid": "6733d509adf627b2e93d4688"
+  },
+  "customer_id": {
+    "$oid": "674751541cf4f83c8fb41593"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-30T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-07T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 45,
+  "deposit_amount": 90,
+  "total_amount": 135,
+  "insurance_status": "In Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "6747ad40c519d04ab18659c1"
+  },
+  "appliance_id": {
+    "$oid": "6733d544adf627b2e93d468a"
+  },
+  "customer_id": {
+    "$oid": "674751541cf4f83c8fb41593"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-28T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-05T00:00:00.000Z"
+  },
+  "quantity": 2,
+  "rental_rate": 240,
+  "deposit_amount": 502,
+  "total_amount": 742,
+  "insurance_status": "In Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "delivery"
+},
+{
+  "_id": {
+    "$oid": "6747ad41c519d04ab18659c2"
+  },
+  "appliance_id": {
+    "$oid": "6733d509adf627b2e93d4688"
+  },
+  "customer_id": {
+    "$oid": "674751541cf4f83c8fb41593"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-30T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-07T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 45,
+  "deposit_amount": 90,
+  "total_amount": 135,
+  "insurance_status": "In Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "6747adcac519d04ab18659c3"
+  },
+  "appliance_id": {
+    "$oid": "6743c8fe07e7eb9b07cd2999"
+  },
+  "customer_id": {
+    "$oid": "674751541cf4f83c8fb41593"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-29T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-06T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 55,
+  "deposit_amount": 70,
+  "total_amount": 125,
+  "insurance_status": "In Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "6747adcac519d04ab18659c4"
+  },
+  "appliance_id": {
+    "$oid": "673feb047c7509e16282a019"
+  },
+  "customer_id": {
+    "$oid": "674751541cf4f83c8fb41593"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-29T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-06T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 100,
+  "deposit_amount": 180,
+  "total_amount": 280,
+  "insurance_status": "In Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "delivery"
+},
+{
+  "_id": {
+    "$oid": "6747ae26c519d04ab18659c5"
+  },
+  "appliance_id": {
+    "$oid": "6733d509adf627b2e93d4688"
+  },
+  "customer_id": {
+    "$oid": "674751541cf4f83c8fb41593"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-30T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-07T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 45,
+  "deposit_amount": 90,
+  "total_amount": 135,
+  "insurance_status": "In Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "6747ae27c519d04ab18659c6"
+  },
+  "appliance_id": {
+    "$oid": "6733d440adf627b2e93d4684"
+  },
+  "customer_id": {
+    "$oid": "674751541cf4f83c8fb41593"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-29T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-06T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 100,
+  "deposit_amount": 150,
+  "total_amount": 250,
+  "insurance_status": "In Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "delivery"
+},
+{
+  "_id": {
+    "$oid": "6747af5b2e5d7e2819d79e89"
+  },
+  "appliance_id": {
+    "$oid": "6733d544adf627b2e93d468a"
+  },
+  "customer_id": {
+    "$oid": "674751541cf4f83c8fb41593"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-28T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-05T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 120,
+  "deposit_amount": 251,
+  "total_amount": 371,
+  "insurance_status": "In Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "delivery"
+},
+{
+  "_id": {
+    "$oid": "6747af5b2e5d7e2819d79e8a"
+  },
+  "appliance_id": {
+    "$oid": "6733d509adf627b2e93d4688"
+  },
+  "customer_id": {
+    "$oid": "674751541cf4f83c8fb41593"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-29T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-06T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 45,
+  "deposit_amount": 90,
+  "total_amount": 135,
+  "insurance_status": "In Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "6747b76ffffa377e14b1576b"
+  },
+  "appliance_id": {
+    "$oid": "6733d509adf627b2e93d4688"
+  },
+  "customer_id": {
+    "$oid": "674751541cf4f83c8fb41593"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-30T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-07T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 45,
+  "deposit_amount": 90,
+  "total_amount": 135,
+  "insurance_status": "In Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "6747b76ffffa377e14b1576c"
+  },
+  "appliance_id": {
+    "$oid": "6733d440adf627b2e93d4684"
+  },
+  "customer_id": {
+    "$oid": "674751541cf4f83c8fb41593"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-29T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-06T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 100,
+  "deposit_amount": 150,
+  "total_amount": 250,
+  "insurance_status": "In Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "delivery"
+},
+{
+  "_id": {
+    "$oid": "6747b7cafffa377e14b1576d"
+  },
+  "appliance_id": {
+    "$oid": "6733d544adf627b2e93d468a"
+  },
+  "customer_id": {
+    "$oid": "674751541cf4f83c8fb41593"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-29T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-06T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 120,
+  "deposit_amount": 251,
+  "total_amount": 371,
+  "insurance_status": "In Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "delivery"
+},
+{
+  "_id": {
+    "$oid": "6747b7cafffa377e14b1576e"
+  },
+  "appliance_id": {
+    "$oid": "6733d509adf627b2e93d4688"
+  },
+  "customer_id": {
+    "$oid": "674751541cf4f83c8fb41593"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-30T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-07T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 45,
+  "deposit_amount": 90,
+  "total_amount": 135,
+  "insurance_status": "In Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "6747dea81a4af7f55461dfaa"
+  },
+  "appliance_id": {
+    "$oid": "6733d509adf627b2e93d4688"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-29T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-06T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 45,
+  "deposit_amount": 90,
+  "total_amount": 135,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "6747df3d1a4af7f55461dfab"
+  },
+  "appliance_id": {
+    "$oid": "6733d509adf627b2e93d4688"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-29T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-06T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 45,
+  "deposit_amount": 90,
+  "total_amount": 135,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "6747e12e1a4af7f55461dfac"
+  },
+  "appliance_id": {
+    "$oid": "6733d509adf627b2e93d4688"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-29T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-06T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 45,
+  "deposit_amount": 90,
+  "total_amount": 135,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "6747e1ad1a4af7f55461dfad"
+  },
+  "appliance_id": {
+    "$oid": "6733d440adf627b2e93d4684"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-30T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-07T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 100,
+  "deposit_amount": 150,
+  "total_amount": 250,
+  "insurance_status": "In Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "delivery"
+},
+{
+  "_id": {
+    "$oid": "6747fec961dd5ac1e3a3464a"
+  },
+  "appliance_id": {
+    "$oid": "673fd46d7c7509e162829ffb"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-29T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-06T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 100,
+  "deposit_amount": 200,
+  "total_amount": 300,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "6747ff8198ae6f78b9fe2183"
+  },
+  "appliance_id": {
+    "$oid": "673fd46d7c7509e162829ffb"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-29T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-06T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 100,
+  "deposit_amount": 200,
+  "total_amount": 300,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "67480c7a0b88f3567a4a7bff"
+  },
+  "appliance_id": {
+    "$oid": "6733d440adf627b2e93d4684"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-28T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-05T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 100,
+  "deposit_amount": 150,
+  "total_amount": 250,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "674812707f0d8a999950f740"
+  },
+  "appliance_id": {
+    "$oid": "673fd46d7c7509e162829ffb"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-28T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-05T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 100,
+  "deposit_amount": 200,
+  "total_amount": 300,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "674812c590842386b3734cea"
+  },
+  "appliance_id": {
+    "$oid": "673fd46d7c7509e162829ffb"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-28T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-05T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 100,
+  "deposit_amount": 200,
+  "total_amount": 300,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "67481614797d0f7d7490fda5"
+  },
+  "appliance_id": {
+    "$oid": "673fd46d7c7509e162829ffb"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-28T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-05T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 100,
+  "deposit_amount": 200,
+  "total_amount": 300,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "674817c2ff37a725886c0e5e"
+  },
+  "appliance_id": {
+    "$oid": "6733d509adf627b2e93d4688"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-29T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-06T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 45,
+  "deposit_amount": 90,
+  "total_amount": 135,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "674817def1c7577a20d4175d"
+  },
+  "appliance_id": {
+    "$oid": "6733d509adf627b2e93d4688"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-29T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-06T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 45,
+  "deposit_amount": 90,
+  "total_amount": 135,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "67481ab9d08d44ef9ca5fc1e"
+  },
+  "appliance_id": {
+    "$oid": "6733d509adf627b2e93d4688"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-29T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-06T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 45,
+  "deposit_amount": 90,
+  "total_amount": 135,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "67481b8376baa14108e92f28"
+  },
+  "appliance_id": {
+    "$oid": "6733d509adf627b2e93d4688"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-29T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-06T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 45,
+  "deposit_amount": 90,
+  "total_amount": 135,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "67482830e311daf0b52c1c5c"
+  },
+  "appliance_id": {
+    "$oid": "6733d544adf627b2e93d468a"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-28T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-05T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 120,
+  "deposit_amount": 251,
+  "total_amount": 371,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "67482e2841ea1f181bf05191"
+  },
+  "appliance_id": {
+    "$oid": "6733d440adf627b2e93d4684"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-28T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-05T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 100,
+  "deposit_amount": 150,
+  "total_amount": 250,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "67482ef815cf123e104ff26a"
+  },
+  "appliance_id": {
+    "$oid": "673fe4447c7509e16282a007"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-29T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-06T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 50,
+  "deposit_amount": 100,
+  "total_amount": 150,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "67493713c7c529f839cf861a"
+  },
+  "appliance_id": {
+    "$oid": "6733d544adf627b2e93d468a"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-30T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-07T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 120,
+  "deposit_amount": 251,
+  "total_amount": 371,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "6749382eb7eda5c2f1f6fcd0"
+  },
+  "appliance_id": {
+    "$oid": "6733d509adf627b2e93d4688"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-30T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-07T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 45,
+  "deposit_amount": 90,
+  "total_amount": 135,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "674938b4c6895b2cf2c2bb08"
+  },
+  "appliance_id": {
+    "$oid": "6733d509adf627b2e93d4688"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-30T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-07T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 45,
+  "deposit_amount": 90,
+  "total_amount": 135,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "67493f3f9ad4b19a0416021e"
+  },
+  "appliance_id": {
+    "$oid": "6733d544adf627b2e93d468a"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-30T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-07T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 120,
+  "deposit_amount": 251,
+  "total_amount": 371,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "67493fbf9ad4b19a04160220"
+  },
+  "appliance_id": {
+    "$oid": "6733d544adf627b2e93d468a"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-28T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-05T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 120,
+  "deposit_amount": 251,
+  "total_amount": 371,
+  "insurance_status": "In Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "67493fc09ad4b19a04160221"
+  },
+  "appliance_id": {
+    "$oid": "6733d509adf627b2e93d4688"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-29T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-06T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 45,
+  "deposit_amount": 90,
+  "total_amount": 135,
+  "insurance_status": "In Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "6749452cb0c84250b61c6da6"
+  },
+  "appliance_id": {
+    "$oid": "6733d544adf627b2e93d468a"
+  },
+  "customer_id": {
+    "$oid": "674751541cf4f83c8fb41593"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-30T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-07T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 120,
+  "deposit_amount": 251,
+  "total_amount": 371,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "674a0d1dea5768307c461842"
+  },
+  "appliance_id": {
+    "$oid": "6733d544adf627b2e93d468a"
+  },
+  "customer_id": {
+    "$oid": "674751541cf4f83c8fb41593"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-29T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-06T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 120,
+  "deposit_amount": 251,
+  "total_amount": 371,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "674a0f73ea5768307c461843"
+  },
+  "appliance_id": {
+    "$oid": "6733d544adf627b2e93d468a"
+  },
+  "customer_id": {
+    "$oid": "674751541cf4f83c8fb41593"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-29T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-06T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 120,
+  "deposit_amount": 251,
+  "total_amount": 371,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "674a1049ea5768307c461844"
+  },
+  "appliance_id": {
+    "$oid": "6733d544adf627b2e93d468a"
+  },
+  "customer_id": {
+    "$oid": "674751541cf4f83c8fb41593"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-30T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-07T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 120,
+  "deposit_amount": 251,
+  "total_amount": 371,
+  "insurance_status": "In Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "delivery"
+},
+{
+  "_id": {
+    "$oid": "674a1049ea5768307c461845"
+  },
+  "appliance_id": {
+    "$oid": "6733d509adf627b2e93d4688"
+  },
+  "customer_id": {
+    "$oid": "674751541cf4f83c8fb41593"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-30T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-07T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 45,
+  "deposit_amount": 90,
+  "total_amount": 135,
+  "insurance_status": "In Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "delivery"
+},
+{
+  "_id": {
+    "$oid": "674a1078ea5768307c461846"
+  },
+  "appliance_id": {
+    "$oid": "6733d509adf627b2e93d4688"
+  },
+  "customer_id": {
+    "$oid": "674751541cf4f83c8fb41593"
+  },
+  "rental_start_date": {
+    "$date": "2024-12-07T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-14T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 45,
+  "deposit_amount": 90,
+  "total_amount": 135,
+  "insurance_status": "In Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "delivery"
+},
+{
+  "_id": {
+    "$oid": "674a10f0ea5768307c461848"
+  },
+  "appliance_id": {
+    "$oid": "6733d509adf627b2e93d4688"
+  },
+  "customer_id": {
+    "$oid": "674751541cf4f83c8fb41593"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-30T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-07T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 45,
+  "deposit_amount": 90,
+  "total_amount": 135,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "674a1b10ea5768307c461849"
+  },
+  "appliance_id": {
+    "$oid": "6733d509adf627b2e93d4688"
+  },
+  "customer_id": {
+    "$oid": "674751541cf4f83c8fb41593"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-30T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-07T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 45,
+  "deposit_amount": 90,
+  "total_amount": 135,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "delivery"
+},
+{
+  "_id": {
+    "$oid": "674a24d280fde5e3ed6af3f4"
+  },
+  "appliance_id": {
+    "$oid": "6733d544adf627b2e93d468a"
+  },
+  "customer_id": {
+    "$oid": "674751541cf4f83c8fb41593"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-30T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-07T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 120,
+  "deposit_amount": 251,
+  "total_amount": 371,
+  "insurance_status": "In Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "pickup"
+},
+{
+  "_id": {
+    "$oid": "674a24d380fde5e3ed6af3f5"
+  },
+  "appliance_id": {
+    "$oid": "6733d509adf627b2e93d4688"
+  },
+  "customer_id": {
+    "$oid": "674751541cf4f83c8fb41593"
+  },
+  "rental_start_date": {
+    "$date": "2024-11-30T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-07T00:00:00.000Z"
+  },
+  "quantity": 2,
+  "rental_rate": 90,
+  "deposit_amount": 180,
+  "total_amount": 270,
+  "insurance_status": "In Active",
+  "return_status": "returned",
+  "damage_report": "none",
+  "delivery_type": "delivery"
+},
+{
+  "_id": {
+    "$oid": "674a87a27d8500f21873d315"
+  },
+  "appliance_id": {
+    "$oid": "6733d440adf627b2e93d4684"
+  },
+  "customer_id": {
+    "$oid": "674751541cf4f83c8fb41593"
+  },
+  "rental_start_date": {
+    "$date": "2024-12-06T00:00:00.000Z"
+  },
+  "rental_end_date": {
+    "$date": "2024-12-13T00:00:00.000Z"
+  },
+  "quantity": 1,
+  "rental_rate": 100,
+  "deposit_amount": 150,
+  "total_amount": 250,
+  "insurance_status": "Active",
+  "return_status": "not returned",
+  "damage_report": "none",
+  "delivery_type": "delivery"
+}]

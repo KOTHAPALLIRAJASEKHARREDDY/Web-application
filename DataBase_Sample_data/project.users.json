@@ -1,0 +1,115 @@
+[{
+  "_id": {
+    "$oid": "671f4946b9972818fd8a3e28"
+  },
+  "firstname": "Rajasekhar Reddy",
+  "lastname": "Kothapalli",
+  "email": "rajasekharreddy@gmail.com",
+  "phone": "913-413-4174",
+  "ssn": "123-54-6789",
+  "password": "Raja@123"
+},
+{
+  "_id": {
+    "$oid": "672141823ac01a9d510a87a4"
+  },
+  "firstname": "Chandana",
+  "lastname": "Yellankata",
+  "email": "chandanachandu0906@gmail.com",
+  "phone": "913-710-6702",
+  "ssn": "657-13-8802",
+  "password": "Chandana@12"
+},
+{
+  "_id": {
+    "$oid": "6722cb4fc2daece5729d891e"
+  },
+  "firstname": "Abhi",
+  "lastname": "Sekhar",
+  "email": "Abhi22@gmail.com",
+  "phone": "123-453-6457",
+  "ssn": "123-46-2244",
+  "password": "Abhi@123"
+},
+{
+  "_id": {
+    "$oid": "673fe2fffa1408c7df1187c8"
+  },
+  "firstname": "Hemanth",
+  "lastname": "Rasabhathula",
+  "email": "hemanthr@gmail.com",
+  "phone": "999-999-9999",
+  "ssn": "999-99-9999",
+  "password": "Welcome@123"
+},
+{
+  "_id": {
+    "$oid": "6742f319e163c114932b92b0"
+  },
+  "firstname": "Abhi",
+  "lastname": "Reddy",
+  "email": "Abhi22@gmail.com",
+  "phone": "123-453-6457",
+  "ssn": "112-34-5554",
+  "password": "Abhi@123"
+},
+{
+  "_id": {
+    "$oid": "67437f58a1bee2b8e386677f"
+  },
+  "firstname": "admin",
+  "lastname": "admin",
+  "email": "admin@gmail.com",
+  "phone": "999-999-9999",
+  "ssn": "999-99-9999",
+  "password": "admin123",
+  "type": "admin",
+  "address": "106ST Overland Park"
+},
+{
+  "_id": {
+    "$oid": "6744342d9834d580f5cb7d6b"
+  },
+  "firstname": "Sravani",
+  "lastname": "yaramala",
+  "email": "yaramalasravani2001@gmail.com",
+  "phone": "940-977-5437",
+  "ssn": "123-45-6789",
+  "password": "Sravaniy1@"
+},
+{
+  "_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "firstname": "Sai Kumar",
+  "lastname": "Pagalla",
+  "address": "11251 hardy st",
+  "email": "saikumar@gmail.com",
+  "phone": "123-453-6457",
+  "ssn": "334-33-3432",
+  "password": "Sai@1234"
+},
+{
+  "_id": {
+    "$oid": "674751541cf4f83c8fb41593"
+  },
+  "firstname": "Demo",
+  "lastname": "User",
+  "address": "7575W 106ST",
+  "email": "demo@gmail.com",
+  "phone": "999-999-9999",
+  "ssn": "999-99-9999",
+  "password": "Demo@123"
+},
+{
+  "_id": {
+    "$oid": "67477aac5d447b1a9dcb470e"
+  },
+  "firstname": "UserCheck",
+  "lastname": "Out",
+  "address": "7654W 109ST",
+  "email": "uc@gmail.com",
+  "phone": "999-999-9999",
+  "ssn": "999-99-9999",
+  "password": "Welcome@123"
+}]

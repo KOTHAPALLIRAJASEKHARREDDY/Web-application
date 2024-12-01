@@ -1,0 +1,64 @@
+[{
+  "_id": {
+    "$oid": "6733e06dadf627b2e93d469d"
+  },
+  "emp_id": 4,
+  "emp_designation": "Senior Technician",
+  "emp_name": "David Green",
+  "assigned_appliances": [
+    {
+      "$oid": "64f1a64b4a6b1c29a3d1b9f0"
+    },
+    {
+      "$oid": "64f1a64b4a6b1c29a3d1b9f1"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6733e029adf627b2e93d469b"
+  },
+  "emp_id": 3,
+  "emp_designation": "Manager",
+  "emp_name": "Alice Brown",
+  "assigned_appliances": [
+    {
+      "$oid": "64f1a64b4a6b1c29a3d1b9ee"
+    },
+    {
+      "$oid": "64f1a64b4a6b1c29a3d1b9ef"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6733df8fadf627b2e93d4697"
+  },
+  "emp_id": 1,
+  "emp_designation": "Engineer",
+  "emp_name": "Sarah Lee",
+  "assigned_appliances": [
+    {
+      "$oid": "64f1a64b4a6b1c29a3d1b9e7"
+    },
+    {
+      "$oid": "64f1a64b4a6b1c29a3d1b9eb"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6733dfe3adf627b2e93d4699"
+  },
+  "emp_id": 2,
+  "emp_designation": "Supervisor",
+  "emp_name": "John Doe",
+  "assigned_appliances": [
+    {
+      "$oid": "64f1a64b4a6b1c29a3d1b9ec"
+    },
+    {
+      "$oid": "64f1a64b4a6b1c29a3d1b9ed"
+    }
+  ]
+}]

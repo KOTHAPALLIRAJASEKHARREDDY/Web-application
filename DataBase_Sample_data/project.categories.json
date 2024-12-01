@@ -1,0 +1,44 @@
+[{
+  "_id": {
+    "$oid": "6733d7b2adf627b2e93d468f"
+  },
+  "categorie_id": "Cat_2",
+  "name": "Outdoor Gear",
+  "description": "Equipment and accessories for outdoor activities, including camping, hiking, and sports",
+  "appliance_id": {
+    "$oid": "64f1a64b4a6b1c29a3d1b9e9"
+  }
+},
+{
+  "_id": {
+    "$oid": "6733d76badf627b2e93d468d"
+  },
+  "categorie_id": "Cat_4",
+  "name": "Home Office Equipment",
+  "description": "Appliances and furniture for home offices, including desks, chairs, and more",
+  "appliance_id": {
+    "$oid": "64f1a64b4a6b1c29a3d1b9e8"
+  }
+},
+{
+  "_id": {
+    "$oid": "6733ddabadf627b2e93d4693"
+  },
+  "categorie_id": "Cat_4",
+  "name": "Kitchen Tools",
+  "description": "Tools and gadgets for kitchen use, including blenders, mixers, and coffee machines",
+  "appliance_id": {
+    "$oid": "64f1a64b4a6b1c29a3d1b9eb"
+  }
+},
+{
+  "_id": {
+    "$oid": "6733dd56adf627b2e93d4691"
+  },
+  "categorie_id": "Cat_3",
+  "name": "Fitness Equipment",
+  "description": "Equipment for fitness and exercise, including weights, machines, and accessories",
+  "appliance_id": {
+    "$oid": "64f1a64b4a6b1c29a3d1b9ea"
+  }
+}]

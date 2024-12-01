@@ -1,0 +1,596 @@
+[{
+  "_id": {
+    "$oid": "6733d544adf627b2e93d468a"
+  },
+  "appliance_id": "App_4",
+  "type": "Air Conditioner",
+  "brand": "Daikin",
+  "model": "FTKF51",
+  "condition": "Used",
+  "availability_status": "Out of Stock",
+  "rental_rate": "120",
+  "deposit_amount": "251",
+  "maintenance_logs": [
+    {
+      "maintenance_id": "Main_5",
+      "description_of_work_done": "Refrigerant refill",
+      "cost_of_repairs": 180,
+      "maintenance_date": {
+        "$date": "2024-09-05T00:00:00.000Z"
+      }
+    }
+  ],
+  "serial_number": "SNG998877",
+  "image_url": "https://klivago.com/media/image/product/2982/md/daikin-air-conditioner-r32-wall-unit-perfera-ftxm60n-60-kw-i-24000-btu.jpg",
+  "features": [
+    "Energy-efficient Inverter technology",
+    "Auto mode",
+    "Turbo cooling",
+    "Remote control operation",
+    "Air purification filter",
+    "Overload protection",
+    "Auto shut-off on overheating",
+    "Child locking feature"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6733d509adf627b2e93d4688"
+  },
+  "appliance_id": "App_3",
+  "type": "Microwave",
+  "brand": "Panasonic",
+  "model": "NN-SN966S",
+  "condition": "New",
+  "availability_status": "Available",
+  "rental_rate": 45,
+  "deposit_amount": 90,
+  "maintenance_logs": [
+    {
+      "maintenance_id": "Main_4",
+      "description_of_work_done": "Magnetron replacement",
+      "cost_of_repairs": 220,
+      "maintenance_date": {
+        "$date": "2024-08-25T00:00:00.000Z"
+      }
+    }
+  ],
+  "serial_number": "SNG112233",
+  "image_url": "https://cdnimg.webstaurantstore.com/images/products/main/29564/299912/panasonic-ne-1054f-1000-watt-commercial-microwave-oven-120v.jpg",
+  "features": [
+    "Inverter technology",
+    "10 power levels",
+    "Auto-cook options",
+    "Child lock"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6733d440adf627b2e93d4684"
+  },
+  "appliance_id": "App_1",
+  "type": "Washing Machine",
+  "brand": "LG",
+  "model": "WM1234",
+  "condition": "Excellent",
+  "availability_status": "Out of Stock",
+  "rental_rate": "100",
+  "deposit_amount": "150",
+  "maintenance_logs": [
+    {
+      "maintenance_id": "Main_2",
+      "description_of_work_done": "Motor replacement",
+      "cost_of_repairs": 200,
+      "maintenance_date": {
+        "$date": "2024-03-10T00:00:00.000Z"
+      }
+    }
+  ],
+  "serial_number": "SNG54321",
+  "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6573/6573547_sd.jpg",
+  "features": [
+    "Energy Efficient",
+    "Smart Connectivity",
+    "Quick Wash",
+    "Multiple Wash Cycles",
+    "Steam Cleaning",
+    "Load Sensing",
+    "Noise Reduction",
+    "Child Lock",
+    "Delay Start",
+    "Self-Cleaning"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6733d4a7adf627b2e93d4686"
+  },
+  "appliance_id": "App_2",
+  "type": "Dishwasher",
+  "brand": "Bosch",
+  "model": "DW5000",
+  "condition": "Fair",
+  "availability_status": "Available",
+  "rental_rate": 60,
+  "deposit_amount": 120,
+  "maintenance_logs": [
+    {
+      "maintenance_id": "Main_3",
+      "description_of_work_done": "Pump replacement",
+      "cost_of_repairs": 180,
+      "maintenance_date": {
+        "$date": "2024-06-15T00:00:00.000Z"
+      }
+    }
+  ],
+  "serial_number": "SNG98765",
+  "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6448/6448627_sd.jpg",
+  "features": [
+    "Energy Efficient",
+    "Smart Connectivity",
+    "Quick Wash",
+    "Multiple Wash Cycles",
+    "Steam Cleaning",
+    "Load Sensing",
+    "Noise Reduction",
+    "Child Lock",
+    "Delay Start",
+    "Self-Cleaning"
+  ]
+},
+{
+  "_id": {
+    "$oid": "673fd46d7c7509e162829ffb"
+  },
+  "appliance_id": "App_5",
+  "type": "Washing Machine",
+  "brand": "Samsung",
+  "model": "FlexWash9000",
+  "condition": "Good",
+  "availability_status": "Available",
+  "rental_rate": "100",
+  "deposit_amount": "200",
+  "serial_number": "SNW98765",
+  "image_url": "https://cdn11.bigcommerce.com/s-8ek7z3h3jn/images/stencil/1920w/products/7961/36616/samsung-bespoke-ai-series-5-11kg-1400-rpm-washing-machine-with-ecobubble-or-ww11bba046abeu__91120.1666128119.jpg?c=1",
+  "maintenance_logs": [
+    {
+      "maintenance_id": "Main_10",
+      "description_of_work_done": "Filter cleaning and belt replacement",
+      "cost_of_repairs": 150,
+      "maintenance_date": {
+        "$date": "2024-09-12T00:00:00.000Z"
+      }
+    }
+  ],
+  "features": [
+    "Energy Star Certified",
+    "Wi-Fi Enabled",
+    "Dual Wash System",
+    "Eco Bubble Technology",
+    "Steam Wash",
+    "Noise Dampening",
+    "Self-Cleaning Drum",
+    "Child Lock",
+    "Quick Wash Cycle",
+    "Delay Start Timer"
+  ]
+},
+{
+  "_id": {
+    "$oid": "673fe3497c7509e16282a005"
+  },
+  "appliance_id": "App_6",
+  "type": "Dishwasher",
+  "brand": "Whirlpool",
+  "model": "WDT750SAKZ",
+  "condition": "Good",
+  "availability_status": "Available",
+  "rental_rate": 75,
+  "deposit_amount": 150,
+  "maintenance_logs": [
+    {
+      "maintenance_id": "Main_3",
+      "description_of_work_done": "Filter cleaning and rack adjustment",
+      "cost_of_repairs": 100,
+      "maintenance_date": {
+        "$date": "2024-06-20T00:00:00.000Z"
+      }
+    }
+  ],
+  "serial_number": "WHL123456",
+  "image_url": "https://example.com/images/whirlpool_dishwasher.jpg",
+  "features": [
+    "Energy Star Certified",
+    "Third Rack for Additional Space",
+    "Sensor Wash Technology",
+    "Heated Dry Option",
+    "Fingerprint Resistant Finish",
+    "Silent Operation (47 dBA)",
+    "Adjustable Upper Rack",
+    "Sanitize Cycle",
+    "Delay Start",
+    "Self-Cleaning Filter"
+  ]
+},
+{
+  "_id": {
+    "$oid": "673fe4447c7509e16282a007"
+  },
+  "appliance_id": "App_7",
+  "type": "Microwave",
+  "brand": "Samsung",
+  "model": "MS23K3513AK",
+  "condition": "Excellent",
+  "availability_status": "Available",
+  "rental_rate": 50,
+  "deposit_amount": 100,
+  "maintenance_logs": [
+    {
+      "maintenance_id": "Main_4",
+      "description_of_work_done": "Door latch replacement",
+      "cost_of_repairs": 150,
+      "maintenance_date": {
+        "$date": "2024-09-10T00:00:00.000Z"
+      }
+    }
+  ],
+  "serial_number": "SAM567890",
+  "image_url": "https://images.samsung.com/is/image/samsung/ca_MC11J7033CT-AC_001_Front_silver?$L1-Thumbnail$",
+  "features": [
+    "Ceramic Enamel Interior",
+    "Eco Mode for Energy Saving",
+    "Auto Cook Programs",
+    "Deodorization Feature",
+    "Child Safety Lock",
+    "LED Display",
+    "Quick Defrost"
+  ]
+},
+{
+  "_id": {
+    "$oid": "673fe5017c7509e16282a009"
+  },
+  "appliance_id": "App_8",
+  "type": "Air Conditioner",
+  "brand": "LG",
+  "model": "DualCool INV18H",
+  "condition": "New",
+  "availability_status": "Available",
+  "rental_rate": 150,
+  "deposit_amount": 300,
+  "maintenance_logs": [
+    {
+      "maintenance_id": "Main_5",
+      "description_of_work_done": "Filter cleaning and fan motor check",
+      "cost_of_repairs": 120,
+      "maintenance_date": {
+        "$date": "2024-10-01T00:00:00.000Z"
+      }
+    }
+  ],
+  "serial_number": "LG12345678",
+  "image_url": "https://www.lg.com/lk/images/AC/S3NQ18KL2FA/S3NQ18KL2FA_Wall-Air-Conditioners_Semi-R_2018_Feature_07_1_SlimDesign_D.jpg",
+  "features": [
+    "Dual Inverter Compressor",
+    "Low Power Consumption",
+    "Wi-Fi Connectivity",
+    "Voice Assistant Compatibility",
+    "4-Way Swing",
+    "Monsoon Comfort Technology",
+    "Anti-bacterial Filter",
+    "Silent Operation",
+    "Auto Restart",
+    "Sleep Mode"
+  ]
+},
+{
+  "_id": {
+    "$oid": "673fe6557c7509e16282a00b"
+  },
+  "appliance_id": "App_9",
+  "type": "Air Conditioner",
+  "brand": "Samsung",
+  "model": "WindFree AR12TXCAAWKN",
+  "condition": "Excellent",
+  "availability_status": "Out of Stock",
+  "rental_rate": 135,
+  "deposit_amount": 250,
+  "maintenance_logs": [
+    {
+      "maintenance_id": "Main_7",
+      "description_of_work_done": "Refrigerant refill and sensor calibration",
+      "cost_of_repairs": 200,
+      "maintenance_date": {
+        "$date": "2024-11-01T00:00:00.000Z"
+      }
+    }
+  ],
+  "serial_number": "SAM98765432",
+  "image_url": "https://images.samsung.com/is/image/samsung/my-wall-mount-arxxjrflbw-ar12jrflbwknme-011-front-white?$L2-Thumbnail$",
+  "features": [
+    "Wind-Free Cooling Technology",
+    "AI Auto Cooling",
+    "Tri-Care Filter",
+    "Energy Star Certified",
+    "Quiet Operation (19 dBA)",
+    "SmartThings App Control",
+    "Dehumidification Mode",
+    "Fast Cooling",
+    "Digital Inverter Technology",
+    "Sleep Mode with Night Lighting"
+  ]
+},
+{
+  "_id": {
+    "$oid": "673fe71d7c7509e16282a00d"
+  },
+  "appliance_id": "App_10",
+  "type": "Air Conditioner",
+  "brand": "Hitachi",
+  "model": "Kaze Plus RAW518HEDO",
+  "condition": "Good",
+  "availability_status": "Available",
+  "rental_rate": 140,
+  "deposit_amount": 275,
+  "maintenance_logs": [
+    {
+      "maintenance_id": "Main_8",
+      "description_of_work_done": "Compressor oil refill and fan blade cleaning",
+      "cost_of_repairs": 150,
+      "maintenance_date": {
+        "$date": "2024-09-15T00:00:00.000Z"
+      }
+    }
+  ],
+  "serial_number": "HIT20231234",
+  "image_url": "https://www.jci-hitachi.com/wp-content/uploads/2022/06/RedDot2022.jpg",
+  "features": [
+    "High Cooling Performance",
+    "100% Copper Condenser",
+    "Eco Mode for Energy Saving",
+    "Auto Fan Speed Adjustment",
+    "Tropical Design for Hot Climates",
+    "Anti-Bacterial Coating",
+    "Dust Filter",
+    "Silent Operation",
+    "Auto Restart",
+    "On/Off Timer"
+  ]
+},
+{
+  "_id": {
+    "$oid": "673fe8127c7509e16282a00f"
+  },
+  "appliance_id": "App_11",
+  "type": "Dishwasher",
+  "brand": "KitchenAid",
+  "model": "KDTM404KPS",
+  "condition": "New",
+  "availability_status": "Available",
+  "rental_rate": 95,
+  "deposit_amount": 200,
+  "maintenance_logs": [
+    {
+      "maintenance_id": "Main_5",
+      "description_of_work_done": "Control panel replacement and water inlet valve cleaning",
+      "cost_of_repairs": 140,
+      "maintenance_date": {
+        "$date": "2024-09-15T00:00:00.000Z"
+      }
+    }
+  ],
+  "serial_number": "KTD543210",
+  "image_url": "https://homedepot.scene7.com/is/image/homedepotcanada/p_1001567206.jpg?wid=1000&hei=1000&op_sharpen=1",
+  "features": [
+    "Advanced Clean Water Wash System",
+    "FreeFlex Third Rack",
+    "44 dBA Quiet Operation",
+    "ProDry System",
+    "Extended ProDry Option",
+    "PrintShield Finish",
+    "SatinGlide Max Rails",
+    "Cycle Memory",
+    "Sanitize Option",
+    "Energy Star Certified"
+  ]
+},
+{
+  "_id": {
+    "$oid": "673fe8967c7509e16282a011"
+  },
+  "appliance_id": "App_12",
+  "type": "Dishwasher",
+  "brand": "GE Appliances",
+  "model": "GDT665SSNSS",
+  "condition": "Fair",
+  "availability_status": "Out of Stock",
+  "rental_rate": 80,
+  "deposit_amount": 160,
+  "maintenance_logs": [
+    {
+      "maintenance_id": "Main_6",
+      "description_of_work_done": "Drain pump replacement and control board inspection",
+      "cost_of_repairs": 130,
+      "maintenance_date": {
+        "$date": "2024-07-25T00:00:00.000Z"
+      }
+    }
+  ],
+  "serial_number": "GEA5678912",
+  "image_url": "https://content.abt.com/image.php/big_GDF650SMJSL.jpg?image=/images/products/BDP_Images/big_GDF650SMJSL.jpg&canvas=1&quality=100&min_w=450&min_h=320&ck=423",
+  "features": [
+    "Dry Boost with Fan Assist",
+    "Steam + Sani Option",
+    "Piranha Hard Food Disposer",
+    "Bottle Jets for Deep Cleaning",
+    "Fingerprint Resistant Stainless Steel",
+    "Three-Level Wash System",
+    "Silent Operation (46 dBA)",
+    "Adjustable Upper Rack",
+    "AutoSense Cycle",
+    "Energy Star Certified"
+  ]
+},
+{
+  "_id": {
+    "$oid": "673fe9677c7509e16282a013"
+  },
+  "appliance_id": "App_13",
+  "type": "Microwave",
+  "brand": "Sharp",
+  "model": "R-21LCFS",
+  "condition": "Good",
+  "availability_status": "Out of Stock",
+  "rental_rate": 65,
+  "deposit_amount": 130,
+  "maintenance_logs": [
+    {
+      "maintenance_id": "Main_7",
+      "description_of_work_done": "Magnetron repair and filter cleaning",
+      "cost_of_repairs": 170,
+      "maintenance_date": {
+        "$date": "2024-08-30T00:00:00.000Z"
+      }
+    }
+  ],
+  "serial_number": "SHR321456",
+  "image_url": "https://esquireelectronicsltd.com/wp-content/uploads/2017/06/sharp-microwave-oven-r-380v-Price-in-BD.jpg",
+  "features": [
+    "Stainless Steel Interior",
+    "Touch Control Panel",
+    "Auto Defrost",
+    "Quick Touch Settings",
+    "Express Defrost",
+    "Child Safety Lock",
+    "Energy Saving Mode",
+    "10 Power Levels",
+    "Two-Way Cooking"
+  ]
+},
+{
+  "_id": {
+    "$oid": "673fe9bf7c7509e16282a015"
+  },
+  "appliance_id": "App_14",
+  "type": "Microwave",
+  "brand": "Breville",
+  "model": "BMO734XL",
+  "condition": "Like New",
+  "availability_status": "Available",
+  "rental_rate": 80,
+  "deposit_amount": 160,
+  "maintenance_logs": [
+    {
+      "maintenance_id": "Main_8",
+      "description_of_work_done": "Control panel calibration and touchpad cleaning",
+      "cost_of_repairs": 110,
+      "maintenance_date": {
+        "$date": "2024-09-18T00:00:00.000Z"
+      }
+    }
+  ],
+  "serial_number": "BRE890123",
+  "image_url": "https://www.briscoes.co.nz/globalassets/productimages/briscoes/1033819_00/1033819_00_default_1.jpg?CatalogContentDetails-269411-600-600-75-0,0",
+  "features": [
+    "Smart Cook, Smart Defrost",
+    "Inverter Technology",
+    "Stainless Steel Cavity",
+    "Quick Start and Reheat Functions",
+    "Auto Minute Timer",
+    "Touch Control and LCD Display",
+    "Child Safety Lock",
+    "Multi-Stage Cooking",
+    "Defrost by Weight/Time"
+  ]
+},
+{
+  "_id": {
+    "$oid": "673feabd7c7509e16282a017"
+  },
+  "appliance_id": "App_15",
+  "type": "Washing Machine",
+  "brand": "Bosch",
+  "model": "WAX32M40GB",
+  "condition": "Like New",
+  "availability_status": "Available",
+  "rental_rate": 90,
+  "deposit_amount": 170,
+  "maintenance_logs": [
+    {
+      "maintenance_id": "Main_11",
+      "description_of_work_done": "Drum replacement and cleaning",
+      "cost_of_repairs": 210,
+      "maintenance_date": {
+        "$date": "2024-09-25T00:00:00.000Z"
+      }
+    }
+  ],
+  "serial_number": "BOS987654",
+  "image_url": "https://cdn.shopify.com/s/files/1/2704/6056/products/MCSA01962734_WAK2427XZA_def_1d_1024x1024@2x.jpg?v=1566746296",
+  "features": [
+    "EcoSilence Drive",
+    "ActiveWater Plus for Efficient Water Usage",
+    "Home Connect (Smart Connectivity)",
+    "VarioPerfect for Time and Energy Saving",
+    "AntiVibration Design for Quiet Operation",
+    "Self-Cleaning Drum",
+    "SpeedPerfect for Faster Wash Cycles",
+    "Child Lock",
+    "Delay Start",
+    "Energy Star Certified"
+  ]
+},
+{
+  "_id": {
+    "$oid": "673feb047c7509e16282a019"
+  },
+  "appliance_id": "App_16",
+  "type": "Washing Machine",
+  "brand": "Maytag",
+  "model": "MVW7230HC",
+  "condition": "New",
+  "availability_status": "Available",
+  "rental_rate": 100,
+  "deposit_amount": 180,
+  "maintenance_logs": [
+    {
+      "maintenance_id": "Main_12",
+      "description_of_work_done": "Transmission replacement",
+      "cost_of_repairs": 230,
+      "maintenance_date": {
+        "$date": "2024-10-01T00:00:00.000Z"
+      }
+    }
+  ],
+  "serial_number": "MAY123456",
+  "image_url": "https://c.shld.net/rpx/i/s/i/spin/image/spin_prod_182112101",
+  "features": [
+    "PowerWash Cycle for Heavy Duty Cleaning",
+    "Deep Fill Option for Maximum Water Use",
+    "Smart Appliance with Wi-Fi Connectivity",
+    "Extra Power Button for Tough Stains",
+    "Steam Refresh Cycle",
+    "Large Capacity Drum",
+    "Quick Wash Option",
+    "Quiet Operation",
+    "Child Lock",
+    "Energy Star Certified"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6743c8fe07e7eb9b07cd2999"
+  },
+  "brand": "BOSCH",
+  "model": "TRES-FG",
+  "type": "Air Cooler",
+  "condition": "New",
+  "rental_rate": "55",
+  "availability_status": "Available",
+  "deposit_amount": "70",
+  "serial_number": "QWERT",
+  "features": [
+    "Instant Cooling"
+  ],
+  "image_url": "https://www.bosch-industrial.com/ocsmedia/optimized/2000x2000/o522361v389_Air_Flux_6300_v1.png"
+}]

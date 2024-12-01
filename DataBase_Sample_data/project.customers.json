@@ -1,0 +1,220 @@
+[{
+  "_id": {
+    "$oid": "6732d4f0e039dd239c793d0c"
+  },
+  "customer_id": "C_1",
+  "name": "saikumar",
+  "address": "342 Maple Avenue, Apt 4B, Los Angeles, CA 90012",
+  "phone_number": "+19134074657",
+  "email": "saikumar@example.com",
+  "rental_history": [],
+  "insurance_option": true
+},
+{
+  "_id": {
+    "$oid": "6732d7a8e039dd239c793d14"
+  },
+  "customer_id": "C_4",
+  "name": "chandana",
+  "address": " 711 Willow Street, Austin, TX 78701",
+  "phone_number": "+19134074545",
+  "email": "chandana@example.com",
+  "rental_history": [],
+  "insurance_option": true
+},
+{
+  "_id": {
+    "$oid": "6732d73fe039dd239c793d12"
+  },
+  "customer_id": "C_3",
+  "name": "sravani",
+  "address": "120 Oak Lane, Denver, CO 80211",
+  "phone_number": "+19134074657",
+  "email": "sravani@example.com",
+  "rental_history": [],
+  "insurance_option": true
+},
+{
+  "_id": {
+    "$oid": "6732d5e7e039dd239c793d0e"
+  },
+  "customer_id": "C_2",
+  "name": "maharajreddy",
+  "address": "509 Pinecrest Drive, Seattle, WA 98122",
+  "phone_number": "+19134074655",
+  "email": "maharaj@example.com",
+  "rental_history": [],
+  "insurance_option": true
+},
+{
+  "_id": {
+    "$oid": "6746d2fc104901e6653fd53d"
+  },
+  "customer_id": {
+    "$oid": "67465e9cc4fe04ad813653be"
+  },
+  "user_name": "Sai Kumar Pagalla",
+  "address": "11251 hardy st",
+  "phone_number": "123-453-6457",
+  "email": "saikumar@gmail.com",
+  "rental_history": [
+    {
+      "appliance_id": "6733d4a7adf627b2e93d4686",
+      "quantity": 4,
+      "insurance": "yes"
+    },
+    {
+      "appliance_id": "6733d544adf627b2e93d468a",
+      "quantity": 9,
+      "insurance": "yes"
+    },
+    {
+      "appliance_id": "6733d509adf627b2e93d4688",
+      "quantity": 24,
+      "insurance": "yes"
+    },
+    {
+      "appliance_id": "673fe6557c7509e16282a00b",
+      "quantity": 1,
+      "insurance": "yes"
+    },
+    {
+      "appliance_id": "6733d440adf627b2e93d4684",
+      "quantity": 3,
+      "insurance": "yes"
+    },
+    {
+      "appliance_id": "673fe3497c7509e16282a005",
+      "quantity": 11,
+      "insurance": "yes"
+    },
+    {
+      "appliance_id": "6733d440adf627b2e93d4684",
+      "quantity": 1,
+      "insurance": "no"
+    },
+    {
+      "appliance_id": "673fd46d7c7509e162829ffb",
+      "quantity": 5,
+      "insurance": "yes"
+    },
+    {
+      "appliance_id": "673fe4447c7509e16282a007",
+      "quantity": 1,
+      "insurance": "yes"
+    },
+    {
+      "appliance_id": "6733d544adf627b2e93d468a",
+      "quantity": 1,
+      "insurance": "Active"
+    },
+    {
+      "appliance_id": "6733d509adf627b2e93d4688",
+      "quantity": 1,
+      "insurance": "Active"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "674752141cf4f83c8fb41594"
+  },
+  "customer_id": {
+    "$oid": "674751541cf4f83c8fb41593"
+  },
+  "user_name": "Demo User",
+  "address": "7575W 106ST",
+  "phone_number": "999-999-9999",
+  "email": "demo@gmail.com",
+  "rental_history": [
+    {
+      "appliance_id": "6733d544adf627b2e93d468a",
+      "quantity": 4,
+      "insurance": "yes"
+    },
+    {
+      "appliance_id": "6733d509adf627b2e93d4688",
+      "quantity": 4,
+      "insurance": "yes"
+    },
+    {
+      "appliance_id": "6743c8fe07e7eb9b07cd2999",
+      "quantity": 3,
+      "insurance": "yes"
+    },
+    {
+      "appliance_id": "6733d509adf627b2e93d4688",
+      "quantity": 7,
+      "insurance": "Active"
+    },
+    {
+      "appliance_id": "6733d440adf627b2e93d4684",
+      "quantity": 3,
+      "insurance": "InActive"
+    },
+    {
+      "appliance_id": "6733d544adf627b2e93d468a",
+      "quantity": 5,
+      "insurance": "Active"
+    },
+    {
+      "appliance_id": "6743c8fe07e7eb9b07cd2999",
+      "quantity": 1,
+      "insurance": "Active"
+    },
+    {
+      "appliance_id": "673feb047c7509e16282a019",
+      "quantity": 1,
+      "insurance": "Active"
+    },
+    {
+      "appliance_id": "6733d544adf627b2e93d468a",
+      "quantity": 3,
+      "insurance": "InActive"
+    },
+    {
+      "appliance_id": "6733d509adf627b2e93d4688",
+      "quantity": 6,
+      "insurance": "InActive"
+    },
+    {
+      "appliance_id": "6733d440adf627b2e93d4684",
+      "quantity": 1,
+      "insurance": "Active"
+    },
+    {
+      "appliance_id": "6733d509adf627b2e93d4688",
+      "quantity": 1,
+      "insurance": "no"
+    },
+    {
+      "appliance_id": "6733d440adf627b2e93d4684",
+      "quantity": 1,
+      "insurance": "yes"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67477af05d447b1a9dcb470f"
+  },
+  "customer_id": {
+    "$oid": "67477aac5d447b1a9dcb470e"
+  },
+  "user_name": "UserCheck Out",
+  "address": "7654W 109ST",
+  "phone_number": "999-999-9999",
+  "email": "uc@gmail.com",
+  "rental_history": [
+    {
+      "appliance_id": "6743c8fe07e7eb9b07cd2999",
+      "quantity": 5,
+      "insurance": "Active"
+    },
+    {
+      "appliance_id": "673feb047c7509e16282a019",
+      "quantity": 6,
+      "insurance": "InActive"
+    }
+  ]
+}]
