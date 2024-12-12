@@ -1,11 +1,14 @@
 import re
 import json
+from doctest import debug
+
 from flask import Flask, request, render_template, send_from_directory, redirect, url_for, flash, jsonify, session
 from dbManager import DbManager
 from validators import validate_input
 from login import user_login
 from dashboard import get_rentals_db
-from appliances import get_appliances_db, update_appliance_db, add_appliance_db, delete_appliance_db, find_appliances_by_id
+from appliances import get_appliances_db, update_appliance_db, add_appliance_db, delete_appliance_db, \
+    find_appliances_by_id, get_appliance_by_id
 from datetime import timedelta
 from rentalagreement import get_products_by_ids_db
 
@@ -113,6 +116,7 @@ def find_appliances():
     appliancesList = request.get_json()
     print(appliancesList)
     print(appliancesList.get('products'))
+    DbManager.add_to_cart(appliancesList.get('products'), DbManager.get_user_by_mail(session['email']))
     appliances = find_appliances_by_id(appliancesList.get('products'))
     if appliances:
         return jsonify({'status': 'success',  'data': appliances})
@@ -132,6 +136,7 @@ def logout():
 @app.route('/dashboard')
 def user_dashboard():
     if session.get('email') is None:
+        session['redirect'] = {"redirect": "/dashboard"}
         return redirect(url_for('login'))
     user_details = (DbManager.get_users_collection()
                     ).find_one({'email': session['email']})
@@ -151,6 +156,14 @@ def cart_page():
     if session.get('email') is None:
         return redirect(url_for('login'))
     return render_template('cart.html')
+
+
+@app.route('/addtocart')
+def add_to_cart():
+    mail = session.get('email')
+    user_data = DbManager.get_user_by_mail(mail)
+    App_id = request.args.get('id')
+    DbManager.addtocart(App_id, user_data)
 
 
 @app.route('/placeorder', methods=['POST'])
@@ -207,6 +220,7 @@ def payment():
         if is_success:
             if data:
                 session.pop('order_info', None)
+                data["date"] = data["date"].date()
             return render_template('conformation.html', display_data=data)
         else:
             return "Issue Happened try again later"
@@ -250,6 +264,50 @@ def order_page():
     else:
         return render_template('order.html', item_Details=DbManager.get_Appliances_Details_WithId(request.args.get('product_id')))
 
+
+@app.route('/orderreturn')
+def order_return():
+    customer = DbManager.get_customers_details_by_mail(session.get('email'))
+    order_data = DbManager.get_rentals_by_customer_id(customer['customer_id'])
+    product_Data = []
+    for item in DbManager.get_rentals_by_customer_id(customer['customer_id']):
+        product_Data.append(DbManager.get_Appliances_Details_WithId(item['appliance_id']))
+    combined_data = zip(order_data, product_Data)
+    return render_template('orderstatus.html', orders_data=combined_data)
+
+
+@app.route('/maintence')
+def maintenance():
+    return render_template('maintenance.html')
+
+
+@app.route('/contact')
+def contact():
+    return render_template('contact-us.html')
+
+
+@app.route('/orderapprove')
+def order_approve():
+    pending_orders = DbManager.get_all_pending_orders()
+    return render_template('order_approved_change.html', pending=pending_orders)
+
+@app.route('/return-product', methods=['POST'])
+def return_product():
+    id = request.args.get('id')
+    is_success = DbManager.change_return_status(id)
+    if is_success:
+        return redirect(url_for('user_dashboard'))
+    else:
+        return "Something is issue"
+
+@app.route('/changestatus', methods=['POST'])
+def change_status():
+    id = request.args.get('id')
+    is_success = DbManager.request_change_status(id, request.form.get('order-status'))
+    if is_success:
+        return redirect(url_for('order_approve'))
+    else:
+        return "failed try later"
 
 @app.route('/css/<path:filename>')
 def send_css(filename):

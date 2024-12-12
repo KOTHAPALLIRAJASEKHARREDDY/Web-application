@@ -1,4 +1,7 @@
 import re
+from gc import collect
+
+import pymongo
 from bson import ObjectId
 from pymongo import MongoClient
 from flask import request
@@ -39,6 +42,16 @@ class DbManager:
         return collection
 
     @staticmethod
+    def get_rentals_by_id(rentalID):
+        collection = DbManager.get_rentals_collection()
+        return (collection.find_one({'_id': ObjectId(rentalID)}))
+
+    @staticmethod
+    def get_rentals_by_customer_id(customer_id):
+        collection = DbManager.get_rentals_collection()
+        return collection.find({'customer_id': ObjectId(customer_id), 'return_status': {'$ne': 'Returned'}})
+
+    @staticmethod
     def get_Appliances_Details_WithId(appliance_id):
         collection = DbManager.get_appliances_collection()
         return collection.find_one({'_id': ObjectId(appliance_id)})
@@ -47,6 +60,11 @@ class DbManager:
     def get_customers_details(customer_id):
         collection = DbManager.get_customers_collection()
         return collection.find_one({'customer_id': customer_id})
+
+    @staticmethod
+    def get_customers_details_by_mail(email):
+        collection = DbManager.get_customers_collection()
+        return collection.find_one({'email': email})
 
     @staticmethod
     def get_user_by_mail(mail):
@@ -123,7 +141,7 @@ class DbManager:
         })
 
         display_data = {'name': user_name, 'total_amount': total_amount, 'quantity': quantity,
-                        'Product': product_data['brand']+" "+product_data['type'],  'order_id': insert_result.inserted_id, 'delivery_type': delivery_type, 'date': rental_start_date, 'address': address}
+                        'Product': product_data['brand']+" "+product_data['type'],  'order_id': insert_result.inserted_id, 'delivery_type': delivery_type, 'date': rental_start_date, 'address': address, 'insurance_status': insurance_status}
         return is_data_saved, display_data
 
     @staticmethod
@@ -245,3 +263,82 @@ class DbManager:
             rental_collection_obj['customer_id'])
 
         return is_data_saved, rental_collection_obj
+
+    @staticmethod
+    def get_all_pending_orders():
+        rental = DbManager.get_rentals_collection()
+        #intrance_data = rental.find({'delivery_status': 'Intrance'}).sort('rental_start_date', pymongo.ASCENDING)
+        pipeline = [
+            {
+                "$match": {
+                    "delivery_status": { "$in": ["waiting for approval", "pending", "approved"] }
+                }
+            },
+            {
+                "$lookup": {
+                    "from": "appliances",
+                    "localField": "appliance_id",
+                    "foreignField": "_id",
+                    "as": "appliance_details"
+                }
+            },
+            {
+                "$unwind": "$appliance_details"
+            },
+            {
+                "$lookup": {
+                    "from": "customers",
+                    "localField": "customer_id",
+                    "foreignField": "customer_id",
+                    "as": "customer_details"
+                }
+            },
+            {
+                "$unwind": "$customer_details"
+            },
+            {
+                "$project": {
+                    "rental_id": "$_id",
+                    "rental_start_date": 1,
+                    "rental_end_date": 1,
+                    "quantity": 1,
+                    "rental_rate": 1,
+                    "deposit_amount": 1,
+                    "total_amount": 1,
+                    "insurance_status": 1,
+                    "return_status": 1,
+                    "damage_report": 1,
+                    "delivery_type": 1,
+                    "delivery_status": 1,
+                    "appliance_type": "$appliance_details.type",
+                    "appliance_brand": "$appliance_details.brand",
+                    "appliance_model": "$appliance_details.model",
+                    "customer_name": "$customer_details.name",
+                    "customer_username": "$customer_details.user_name",
+                    "customer_address": "$customer_details.address"
+                }
+            }
+        ]
+
+        result = list(rental.aggregate(pipeline))
+
+        #return intrance_data
+        return result
+
+    @staticmethod
+    def request_change_status(id, status):
+        rental = DbManager.get_rentals_collection()
+        return rental.update_one({'_id': ObjectId(id)} , {'$set': {'delivery_status': status}})
+
+    @staticmethod
+    def change_return_status(id):
+        rental = DbManager.get_rentals_collection()
+        return rental.update_one({'_id': ObjectId(id)}, {'$set': {'return_status': 'Returned'}})
+
+    @staticmethod
+    def add_to_cart(app_list, user_data):
+        collection = DbManager.db['cart']
+        existed_data = collection.find_one({ 'user_id': user_data['_id'] })
+        if existed_data is None:
+            collection.insert_one({ 'user_id': user_data['_id'], 'appliance_list':app_list})
+        print('added to cart')

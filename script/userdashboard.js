@@ -49,11 +49,13 @@ callGetRentals = () => {
         document.getElementById("history").style.display = "block";
       }
       const ongoingRentals = result.filter(
-        (rental) => rental.return_status != "returned"
+        (rental) =>
+          rental.return_status != "Returned" &&
+          new Date(rental.rental_end_date) >= new Date()
       );
       populateOngoingRentals(ongoingRentals);
       const rentalHistory = result.filter(
-        (rental) => rental.return_status == "returned"
+        (rental) => rental.return_status == "Returned"
       );
       populateRentalHistory(rentalHistory);
     });

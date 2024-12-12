@@ -1,4 +1,5 @@
 from flask import request
+import bcrypt
 
 
 def flask(param):
@@ -36,8 +37,9 @@ def user_login(collection):
 
 def check_for_user_credentials(username, password, collection):
     user = collection.find_one({'email': username})
-    if user and user['password'] == password:
-        print("returning true")
+    print(user)
+    #if user and user['password'] == password:
+    if user and (user['password'] == password or bcrypt.checkpw(password.encode('utf-8'), user['password'])):
         user_data = {
             'user_id': str(user['_id']),
             'username': user['email'],
@@ -47,5 +49,4 @@ def check_for_user_credentials(username, password, collection):
             'type': user['type'] if 'type' in user else 'user',
         }
         return True, user_data
-    print("returning flase")
     return False, None

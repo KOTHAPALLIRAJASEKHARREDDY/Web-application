@@ -88,7 +88,7 @@ const addToCart = (p_id) => {
     // Store the updated cart in localStorage
     localStorage.setItem("cart", JSON.stringify(cart));
     // Dispatch a custom event to notify other tabs/windows
-    window.dispatchEvent(new Event("cartUpdated"));
+    window.dispatchEvent(new Event("cartUpdated"))
   }
 };
 

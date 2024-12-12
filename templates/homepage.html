@@ -23,7 +23,7 @@
     </header>
     <nav>
       <a href="#">Pay My Bill</a>
-      <a href="#">Appliances for Lease</a>
+      <a href="/dashboard">Dashboard</a>
       <a href="#">About Us</a>
       <a href="login.html">Customer Login</a>
     </nav>
@@ -117,7 +117,7 @@
           <p>Price: {{ p_data['rental_rate'] }}</p>
           <p>Deposit Amount: {{ p_data['deposit_amount'] }}</p>
           <div class="appliance-button">
-            <button onclick="on_order('{{ p_data['_id'] }}')">Order now</button>
+            <button onclick="on_order('{{ p_data['_id'] }}')">Rent now</button>
             <button onclick="addToCart('{{ p_data['appliance_id'] }}')">
               Add to cart
             </button>

@@ -378,6 +378,24 @@ body {
   width: 100%;
 }
 
+.modal-content .form-group select,
+.modal-content input,
+.modal-content textarea {
+  flex: 2; /* Ensure consistent width ratio */
+  padding: 10px; /* Same padding for all inputs */
+  margin-top: 5px;
+  border: 1px solid #ccc; /* Uniform border */
+  border-radius: 4px; /* Same rounded corners */
+  font-size: 16px; /* Uniform font size */
+  background-color: #fff; /* Same background */
+  color: #000; /* Same text color */
+  width: 100%; /* Consistent width */
+  box-sizing: border-box; /* Include padding in width calculation */
+  height: 40px; /* Same height for all fields */
+}
+
+
+
 .modal-content label {
   flex: 1;
   margin-top: 10px;

@@ -1,5 +1,6 @@
 import re
 from flask import abort, request
+import bcrypt
 
 
 def validate_input():
@@ -42,5 +43,8 @@ def validate_input():
         'email': email,
         'phone': phone,
         'ssn': ssn,
-        'password': password,
+        'password': get_encripted_password(password),
     }
+
+def get_encripted_password(password):
+    return bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt())

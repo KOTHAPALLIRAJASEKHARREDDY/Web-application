@@ -16,10 +16,10 @@
               <span class="menu-icon">☰</span> Menu
             </a>
             <ul class="dropdown-content">
-              <li><a href="#">Payment Bill</a></li>
-              <li><a href="#">Order Status</a></li>
-              <li><a href="#">Maintenance Request</a></li>
-              <li><a href="#">Contact Us</a></li>
+              <!--<li><a href="#">Payment Bill</a></li>-->
+              <li><a href="/orderapprove">Order Approve</a></li>
+              <li><a href="#">Complaints</a></li>
+              <li><a href="#">Employees info</a></li>
             </ul>
           </div>
 
@@ -97,12 +97,11 @@
             </div>
             <div class="form-group">
               <label for="availability_status">Availability Status:</label>
-              <input
-                type="text"
-                id="availability_status"
-                name="availability_status"
-                required
-              />
+              <select id="availability_status" name="availability_status" required style="width: 100%">
+                <option value="" disabled selected>Choose...</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select>
             </div>
             <div class="form-group">
               <label for="deposit_amount">Deposit Amount:</label>

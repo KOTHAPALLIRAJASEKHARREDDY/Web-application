@@ -21,8 +21,26 @@
 
       <div class="payment-options">
         <div class="total-amount-container">
+
+          {% if order_data['insurance_status'] == 'Active' %}
+          <div class="amount-item">
+          <span>Amount:</span>
+          <span class="amount">${{ order_data['total_amount'] }}.00</span><br>
+          </div>
+          <div class="amount-item">
+          <span>insurance:</span>
+          <span class="insurance-amount">$10.00</span><br>
+            </div>
+          {% endif %}
+
+          <div class="amount-item">
           <span>Total Amount:</span>
-          <span class="total-amount">${{ order_data['total_amount'] }}.00</span>
+            {% if order_data['insurance_status'] == 'Active' %}
+          <span class="total-amount">${{ order_data['total_amount']+10 }}.00</span><br>
+            {% else %}
+            <span class="total-amount">${{ order_data['total_amount'] }}.00</span><br>
+            {% endif %}
+          </div>
         </div>
       </div>
 
