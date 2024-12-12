@@ -56,6 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
       backHomeBtn.textContent = "Back to Homepage";
       backHomeBtn.onclick = redirectToHome;
       orderDetails.appendChild(backHomeBtn);
+      localStorage.removeItem("checkoutProducts");
     })
     .catch((error) => {
       console.error("Error fetching product details:", error);

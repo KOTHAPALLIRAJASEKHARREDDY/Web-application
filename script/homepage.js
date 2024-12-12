@@ -1,4 +1,16 @@
 document.addEventListener("DOMContentLoaded", function () {
+  const user = JSON.parse(localStorage.getItem("user_data"));
+  const cart = JSON.parse(localStorage.getItem("cart"));
+
+  if (user && user.username && cart && cart.email) {
+    if (user.username !== cart.email) {
+      localStorage.setItem(
+        "cart",
+        JSON.stringify({ email: user.username, productIds: [] })
+      );
+    }
+  }
+
   updateCartBadge();
   // Listen for custom cart update events
   window.addEventListener("cartUpdated", updateCartBadge);
@@ -12,9 +24,13 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function updateCartBadge() {
-  const cart = JSON.parse(localStorage.getItem("cart")) || [];
+  const user = JSON.parse(localStorage.getItem("user_data"));
+  const cart = JSON.parse(localStorage.getItem("cart")) || {
+    email: user.username,
+    productIds: [],
+  };
   const cartBadge = document.getElementById("cart-count");
-  cartBadge.innerText = cart.length;
+  cartBadge.innerText = cart.productIds.length;
 }
 
 let slideIndex = 0; // Start with the first slide
@@ -77,18 +93,26 @@ function on_order(p_id) {
 }
 
 const addToCart = (p_id) => {
-  const cart = JSON.parse(localStorage.getItem("cart")) || [];
+  const user = JSON.parse(localStorage.getItem("user_data"));
+  if (!user || !user.username) {
+    console.error("User is not logged in.");
+    return;
+  }
+  const cart = JSON.parse(localStorage.getItem("cart")) || {
+    email: user.username,
+    productIds: [],
+  };
 
   // Check if the product ID already exists in the cart
-  const productExists = cart.includes(p_id);
+  const productExists = cart.productIds.includes(p_id);
 
   if (!productExists) {
     // Add the product ID to the cart
-    cart.push(p_id);
+    cart.productIds.push(p_id);
     // Store the updated cart in localStorage
     localStorage.setItem("cart", JSON.stringify(cart));
     // Dispatch a custom event to notify other tabs/windows
-    window.dispatchEvent(new Event("cartUpdated"))
+    window.dispatchEvent(new Event("cartUpdated"));
   }
 };
 

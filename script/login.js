@@ -1,6 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
   // Clear localStorage when the login page loads
-  localStorage.clear();
+  //localStorage.setItem("cart", JSON.stringify([]));
+  //localStorage.setItem("user_data", JSON.stringify({}));
+  localStorage.removeItem("user_data");
+  localStorage.removeItem("checkoutProducts");
 });
 
 document
@@ -23,15 +26,13 @@ document
           localStorage.setItem("user_data", JSON.stringify(userData));
           if (userData.type === "admin") {
             window.location.href = "/admindashboard";
-          } else if (userData.type === "redirect")
-          {
-              const parameters = new URLSearchParams(userData.params).toString();
-              if (parameters) {
-                  window.location.href = userData.redirect + "?" + parameters;
-              }
-              else {
-                  window.location.href = userData.redirect;
-              }
+          } else if (userData.type === "redirect") {
+            const parameters = new URLSearchParams(userData.params).toString();
+            if (parameters) {
+              window.location.href = userData.redirect + "?" + parameters;
+            } else {
+              window.location.href = userData.redirect;
+            }
           } else {
             window.location.href = "/";
           }

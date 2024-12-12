@@ -16,15 +16,19 @@ let products = [];
 
 // Function to update the cart badge
 function updateCartBadge() {
-  const cart = JSON.parse(localStorage.getItem("cart")) || [];
+  const user = JSON.parse(localStorage.getItem("user_data"));
+  const cart = JSON.parse(localStorage.getItem("cart")) || {
+    email: user.username,
+    productIds: [],
+  };
   const cartBadge = document.getElementById("cart-count");
-  cartBadge.innerText = cart.length;
+  cartBadge.innerText = cart.productIds.length;
 }
 
 // Fetch products and display them
 const callGetProducts = () => {
   const products_list = localStorage.getItem("cart")
-    ? JSON.parse(localStorage.getItem("cart"))
+    ? JSON.parse(localStorage.getItem("cart")).productIds
     : [];
   if (products_list.length == 0) {
     document.getElementById("cart-items").innerHTML =
@@ -59,8 +63,11 @@ const callGetProducts = () => {
       products.forEach((product) => {
         const product_id = product._id;
         const productCard = document.createElement("div");
-        totalRate = Number.parseInt(totalRate) + Number.parseInt(product.rental_rate);
-        totalDeposit = Number.parseInt(totalDeposit) + Number.parseInt(product.deposit_amount);
+        totalRate =
+          Number.parseInt(totalRate) + Number.parseInt(product.rental_rate);
+        totalDeposit =
+          Number.parseInt(totalDeposit) +
+          Number.parseInt(product.deposit_amount);
         productCard.className = "product-card";
         productCard.innerHTML = `
           <img src="${product.image_url}" alt="${product.name}" />
@@ -104,7 +111,9 @@ const callGetProducts = () => {
       <div style="text-align:right">
         <h3>Total Rental Rate: $<span id="total-rate">${totalRate}</span></h3>
         <h3>Total Deposit Amount: $<span id="total-deposit">${totalDeposit}</span></h3>
-        <h3>Total Amount: $<span id="total-amount">${totalRate + totalDeposit}</span></h3>
+        <h3>Total Amount: $<span id="total-amount">${
+          totalRate + totalDeposit
+        }</span></h3>
       </div>
       <div class="checkout-container">
         <button class="checkout-button" onclick='onCartClick()'>Checkout</button>
@@ -116,13 +125,18 @@ const callGetProducts = () => {
 
 // Delete product from cart
 const deleteFromCart = (product_id) => {
+  const user = JSON.parse(localStorage.getItem("user_data"));
   const products_list = localStorage.getItem("cart")
-    ? JSON.parse(localStorage.getItem("cart"))
+    ? JSON.parse(localStorage.getItem("cart")).productIds
     : [];
   const new_products_list = products_list.filter(
     (product) => product !== product_id
   );
-  localStorage.setItem("cart", JSON.stringify(new_products_list));
+  const cart = {
+    email: user.username,
+    productIds: new_products_list,
+  };
+  localStorage.setItem("cart", JSON.stringify(cart));
   callGetProducts();
   window.dispatchEvent(new Event("cartUpdated"));
 };
@@ -142,7 +156,9 @@ const updateProductDeliveryType = (productId, deliveryType) => {
 
 // Toggle delivery date input visibility
 const toggleDeliveryDate = (productId, deliveryType) => {
-  const deliveryDateInput = document.getElementById(`delivery-date-${productId}`);
+  const deliveryDateInput = document.getElementById(
+    `delivery-date-${productId}`
+  );
   deliveryDateInput.style.display = "inline-block";
 };
 
@@ -153,14 +169,16 @@ const updateProductDeliveryDate = (productId, deliveryDate) => {
 
   // Set Starting Date same as Delivery Date
   const startingDate = new Date(deliveryDate);
-  const startingDateFormatted = startingDate.toISOString().split('T')[0];
-  document.getElementById(`starting-date-${productId}`).value = startingDateFormatted;
+  const startingDateFormatted = startingDate.toISOString().split("T")[0];
+  document.getElementById(`starting-date-${productId}`).value =
+    startingDateFormatted;
 
   // Calculate Ending Date (7 days after starting date)
   const endingDate = new Date(startingDate);
   endingDate.setDate(startingDate.getDate() + 7); // Add 7 days
-  const endingDateFormatted = endingDate.toISOString().split('T')[0];
-  document.getElementById(`ending-date-${productId}`).value = endingDateFormatted;
+  const endingDateFormatted = endingDate.toISOString().split("T")[0];
+  document.getElementById(`ending-date-${productId}`).value =
+    endingDateFormatted;
 };
 
 // Handle checkout process
@@ -192,7 +210,9 @@ const updateProductTotal = (productId, rentalRate, depositAmount, quantity) => {
   const product = products.find((p) => p._id === productId);
   product.quantity = Number.parseInt(quantity);
   const rentalRateElement = document.getElementById(`rental-rate-${productId}`);
-  const depositAmountElement = document.getElementById(`deposit-amount-${productId}`);
+  const depositAmountElement = document.getElementById(
+    `deposit-amount-${productId}`
+  );
   const newRentalRate = rentalRate * quantity;
   const newDepositAmount = depositAmount * quantity;
   rentalRateElement.textContent = newRentalRate;
@@ -210,5 +230,6 @@ const updateTotal = () => {
   });
   document.getElementById("total-rate").textContent = totalRate;
   document.getElementById("total-deposit").textContent = totalDeposit;
-  document.getElementById("total-amount").textContent = totalRate + totalDeposit;
+  document.getElementById("total-amount").textContent =
+    totalRate + totalDeposit;
 };
