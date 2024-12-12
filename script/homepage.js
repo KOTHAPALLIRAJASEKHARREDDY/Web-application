@@ -92,7 +92,7 @@ const addToCart = (p_id) => {
   const user = JSON.parse(localStorage.getItem("user_data"));
   if (!user || !user.username) {
     console.error("User is not logged in.");
-    return;
+    window.location.href = "/login";
   }
   const cart = JSON.parse(localStorage.getItem("cart")) || {};
 
