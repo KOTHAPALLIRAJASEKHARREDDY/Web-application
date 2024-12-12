@@ -27,6 +27,7 @@ def index():
     return render_template('homepage.html', product_data=items_Data)
 
 
+
 @app.route('/login', methods=['GET', 'POST'])
 @app.route('/login.html', methods=['GET', 'POST'])
 def login():
@@ -62,7 +63,7 @@ def signup():
         (DbManager.get_users_collection()).insert_one(user_data)
         return render_template('login.html')
     else:
-        return render_template('signup.html')
+        return render_template('SignUp.html')
 
 
 @app.route('/getrentals/<user_id>', methods=['GET'])
