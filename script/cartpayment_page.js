@@ -51,8 +51,11 @@ const callPaymentAPI = (paymentData, products, user) => {
     .then((response) => response.json())
     .then((data) => {
       if (data.status === "success") {
+        user = JSON.parse(localStorage.getItem("user_data"));
         alert("Checkout successful!");
-        localStorage.removeItem("cart");
+        const cart = JSON.parse(localStorage.getItem("cart")) || {};
+        delete cart[user.username];
+        localStorage.setItem("cart", JSON.stringify(cart));
         window.dispatchEvent(new Event("cartUpdated"));
         const productIds = data.data.products
           .map((product) => product._id)

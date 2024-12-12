@@ -17,19 +17,19 @@ let products = [];
 // Function to update the cart badge
 function updateCartBadge() {
   const user = JSON.parse(localStorage.getItem("user_data"));
-  const cart = JSON.parse(localStorage.getItem("cart")) || {
-    email: user.username,
-    productIds: [],
-  };
+  const cart = JSON.parse(localStorage.getItem("cart")) || {};
+
+  const productIds = cart[user.username] || [];
   const cartBadge = document.getElementById("cart-count");
-  cartBadge.innerText = cart.productIds.length;
+  cartBadge.innerText = productIds.length;
 }
 
 // Fetch products and display them
 const callGetProducts = () => {
-  const products_list = localStorage.getItem("cart")
-    ? JSON.parse(localStorage.getItem("cart")).productIds
-    : [];
+  const user = JSON.parse(localStorage.getItem("user_data"));
+  const cart = JSON.parse(localStorage.getItem("cart")) || {};
+
+  const products_list = cart[user.username] || [];
   if (products_list.length == 0) {
     document.getElementById("cart-items").innerHTML =
       "<h1>No products in cart</h1>";
@@ -126,16 +126,13 @@ const callGetProducts = () => {
 // Delete product from cart
 const deleteFromCart = (product_id) => {
   const user = JSON.parse(localStorage.getItem("user_data"));
-  const products_list = localStorage.getItem("cart")
-    ? JSON.parse(localStorage.getItem("cart")).productIds
-    : [];
+  const cart = JSON.parse(localStorage.getItem("cart")) || {};
+  const products_list = cart[user.username] || [];
   const new_products_list = products_list.filter(
     (product) => product !== product_id
   );
-  const cart = {
-    email: user.username,
-    productIds: new_products_list,
-  };
+
+  cart[user.username] = new_products_list;
   localStorage.setItem("cart", JSON.stringify(cart));
   callGetProducts();
   window.dispatchEvent(new Event("cartUpdated"));

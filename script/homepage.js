@@ -4,10 +4,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   if (user && user.username && cart && cart.email) {
     if (user.username !== cart.email) {
-      localStorage.setItem(
-        "cart",
-        JSON.stringify({ email: user.username, productIds: [] })
-      );
+      cart[user.username] = [];
+      localStorage.setItem("cart", JSON.stringify(cart));
     }
   }
 
@@ -25,12 +23,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function updateCartBadge() {
   const user = JSON.parse(localStorage.getItem("user_data"));
-  const cart = JSON.parse(localStorage.getItem("cart")) || {
-    email: user.username,
-    productIds: [],
-  };
+  const cart = JSON.parse(localStorage.getItem("cart")) || {};
+  const productIds = cart[user.username] || [];
   const cartBadge = document.getElementById("cart-count");
-  cartBadge.innerText = cart.productIds.length;
+  cartBadge.innerText = productIds.length;
 }
 
 let slideIndex = 0; // Start with the first slide
@@ -98,17 +94,19 @@ const addToCart = (p_id) => {
     console.error("User is not logged in.");
     return;
   }
-  const cart = JSON.parse(localStorage.getItem("cart")) || {
-    email: user.username,
-    productIds: [],
-  };
+  const cart = JSON.parse(localStorage.getItem("cart")) || {};
+
+  if (!cart[user.username]) {
+    cart[user.username] = [];
+  }
 
   // Check if the product ID already exists in the cart
-  const productExists = cart.productIds.includes(p_id);
+  const productExists = cart[user.username].includes(p_id);
 
   if (!productExists) {
     // Add the product ID to the cart
-    cart.productIds.push(p_id);
+    //cart.productIds.push(p_id);
+    cart[user.username].push(p_id);
     // Store the updated cart in localStorage
     localStorage.setItem("cart", JSON.stringify(cart));
     // Dispatch a custom event to notify other tabs/windows
